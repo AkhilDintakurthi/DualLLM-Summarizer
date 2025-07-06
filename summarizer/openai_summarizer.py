@@ -30,7 +30,7 @@ def summarize_with_openai(scraped_data: dict) -> str:
 if __name__ == "__main__":
     from scraper.web_scraper import get_page_content
 
-    url = "https://techcrunch.com/2025/07/03/wonder-dynamics-co-founder-nikola-todorovic-joins-the-ai-stage-at-techcrunch-disrupt-2025/"
+    url = "https://example.com/your-article-here"
     scraped_data = get_page_content(url)
 
     summary = summarize_with_openai(scraped_data)

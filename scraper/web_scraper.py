@@ -13,7 +13,7 @@ def get_page_content(url: str) -> dict:
 
 
 if __name__ == "__main__":
-    url = "https://techcrunch.com/2025/07/03/wonder-dynamics-co-founder-nikola-todorovic-joins-the-ai-stage-at-techcrunch-disrupt-2025/"
+    url = "https://example.com/your-article-here"
     result = get_page_content(url)
     
     print(f"Title: {result['title']}\n")

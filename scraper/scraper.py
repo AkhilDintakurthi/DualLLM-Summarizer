@@ -39,7 +39,7 @@ def scrape_title_and_article(url: str) -> tuple[str, str]:
 
 # Optional standalone test
 if __name__ == "__main__":
-    test_url = "https://techcrunch.com/2025/07/03/wonder-dynamics-co-founder-nikola-todorovic-joins-the-ai-stage-at-techcrunch-disrupt-2025/"
-    title, text = scrape_title_and_article(test_url)
+    url = "https://example.com/your-article-here"
+    title, text = scrape_title_and_article(url)
     print(f"Title:\n{title}\n")
     print(f"Content Preview:\n{text}")

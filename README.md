@@ -3,8 +3,6 @@
 **LLM-Powered Web Summarizer with Multi-Model Evaluation**  
 Built to showcase full-stack GenAI engineering — from dynamic web scraping to dual-model summarization and automated LLM-based evaluation.
 
-> ✅ Perfect for GenAI portfolios, LLM Engineering resumes, and AI hackathons.
-
 ---
 
 ## 🚀 Overview
@@ -27,7 +25,6 @@ This allows users to **visually compare** the summaries and understand which mod
 | 🧹 **BeautifulSoup Cleaner**     | Strips out noise (ads, footers, scripts) to retain pure article content |
 | ✍️ **OpenAI + Ollama Summarizer**| Dual summarization using both cloud and local LLMs |
 | 🧠 **LLM Evaluation (GPT-4)**     | GPT-4 scores and explains which summary is better and why |
-| 🧾 **Markdown Rendering**         | Summaries are output in a clean, readable markdown format |
 | 🧪 **Modular Design**             | Easy to plug in other models (Claude, Gemini, Mistral, etc.) |
 
 ---
@@ -48,25 +45,24 @@ URL → Playwright Scraper → Clean HTML → Extracted Text
 ## 📁 Folder Structure
 DualLLM-Summarizer/
 ├── scraper/
-│   ├── scraper.py           # Core scraping logic using Playwright
-│   ├── web_scraper.py       # Wrapper for single-URL scraping
-│   └── __init__.py
+│ ├── scraper.py # Core scraping logic using Playwright
+│ ├── web_scraper.py # Wrapper for single-URL scraping
+│ └── init.py
 │
 ├── summarizer/
-│   ├── openai_summarizer.py # Calls OpenAI models (GPT-3.5/GPT-4)
-│   ├── ollama_summarizer.py # Calls local models via Ollama (e.g., LLaMA2, Mistral)
-│   └── __init__.py
+│ ├── openai_summarizer.py # Calls OpenAI models (GPT-3.5/GPT-4)
+│ ├── ollama_summarizer.py # Calls local models via Ollama (e.g., LLaMA2, Mistral)
+│ └── init.py
 │
 ├── eval/
-│   ├── gpt_judge.py         # GPT-based evaluation logic
-│   ├── evaluator.py         # Wrapper to call GPT-4 to compare summaries
-│   └── __init__.py
+│ ├── gpt_judge.py # GPT-based evaluation logic
+│ ├── evaluator.py # Wrapper to call GPT-4 to compare summaries
+│ └── init.py
 │
-├── main.py                  # End-to-end controller (takes URL → outputs comparison)
-├── requirements.txt         # All dependencies
-├── README.md                # Project documentation
-└── .env                     # API keys for OpenAI, etc.
-
+├── main.py # End-to-end controller (takes URL → outputs comparison)
+├── requirements.txt # All dependencies
+├── README.md # Project documentation
+└── .env # API keys for OpenAI, etc.
 
 ---
 
@@ -87,3 +83,4 @@ GenAI Engineer | Data Scientist | LLM Integrator
 
 - 📧 Email: kalyan.dintakurthi@gmail.com  
 
+---
