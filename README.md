@@ -79,7 +79,7 @@ DualLLM-Summarizer/
 
 ## 👤 Author
 
-**Akhil Sai Kalyan Dintakurthi**  
+**Akhil Dintakurthi**  
 GenAI Engineer | Data Scientist | LLM Integrator
 
 - 📧 Email: dintakurthiakhilsai@gmail.com  
