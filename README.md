@@ -1,11 +1,11 @@
-# 🤖 DualLLM-Summarizer
+# DualLLM-Summarizer
 
 **LLM-Powered Web Summarizer with Multi-Model Evaluation**  
 Built to showcase full-stack GenAI engineering — from dynamic web scraping to dual-model summarization and automated LLM-based evaluation.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **DualLLM-Summarizer** is a powerful web summarization tool that:
 
@@ -17,19 +17,19 @@ This allows users to **visually compare** the summaries and understand which mod
 
 ---
 
-## 🛠️ Features
+## Features
 
 | Feature                          | Description |
 |----------------------------------|-------------|
-| 🔍 **Playwright Scraper**        | Handles dynamic web content (scrolling, JS rendering, login flows) |
-| 🧹 **BeautifulSoup Cleaner**     | Strips out noise (ads, footers, scripts) to retain pure article content |
-| ✍️ **OpenAI + Ollama Summarizer**| Dual summarization using both cloud and local LLMs |
-| 🧠 **LLM Evaluation (GPT-4)**     | GPT-4 scores and explains which summary is better and why |
-| 🧪 **Modular Design**             | Easy to plug in other models (Claude, Gemini, Mistral, etc.) |
+| **Playwright Scraper**        | Handles dynamic web content (scrolling, JS rendering, login flows) |
+| **BeautifulSoup Cleaner**     | Strips out noise (ads, footers, scripts) to retain pure article content |
+| **OpenAI + Ollama Summarizer**| Dual summarization using both cloud and local LLMs |
+| **LLM Evaluation (GPT-4)**     | GPT-4 scores and explains which summary is better and why |
+| **Modular Design**             | Easy to plug in other models (Claude, Gemini, Mistral, etc.) |
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 ```
 URL → Playwright Scraper → Clean HTML → Extracted Text
@@ -82,6 +82,6 @@ DualLLM-Summarizer/
 **Akhil Sai Kalyan Dintakurthi**  
 GenAI Engineer | Data Scientist | LLM Integrator
 
-- 📧 Email: kalyan.dintakurthi@gmail.com  
+- 📧 Email: dintakurthiakhilsai@gmail.com  
 
 ---
